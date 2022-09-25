@@ -1,0 +1,26 @@
+Line 43: Class MSComctlLib.Toolbar of control tolPrincipalAdm was not a loaded control class.
+Line 154: Class MSComctlLib.ImageList of control imgListCadastro was not a loaded control class.
+Line 244: Class MSComDlg.CommonDialog of control cd1 was not a loaded control class.
+Line 251: Class MSComctlLib.StatusBar of control stbPrincipal was not a loaded control class.
+Line 50: The property name _ExtentX in tolPrincipalAdm is invalid.
+Line 51: The property name _ExtentY in tolPrincipalAdm is invalid.
+Line 52: The property name ButtonWidth in tolPrincipalAdm is invalid.
+Line 53: The property name ButtonHeight in tolPrincipalAdm is invalid.
+Line 54: The property name Style in tolPrincipalAdm is invalid.
+Line 55: The property name ImageList in tolPrincipalAdm is invalid.
+Line 56: The property name _Version in tolPrincipalAdm is invalid.
+Line 152: The property name Buttons in tolPrincipalAdm is invalid.
+Line 157: The property name _ExtentX in imgListCadastro is invalid.
+Line 158: The property name _ExtentY in imgListCadastro is invalid.
+Line 160: The property name ImageWidth in imgListCadastro is invalid.
+Line 161: The property name ImageHeight in imgListCadastro is invalid.
+Line 162: The property name MaskColor in imgListCadastro is invalid.
+Line 163: The property name _Version in imgListCadastro is invalid.
+Line 242: The property name Images in imgListCadastro is invalid.
+Line 247: The property name _ExtentX in cd1 is invalid.
+Line 248: The property name _ExtentY in cd1 is invalid.
+Line 249: The property name _Version in cd1 is invalid.
+Line 258: The property name _ExtentX in stbPrincipal is invalid.
+Line 259: The property name _ExtentY in stbPrincipal is invalid.
+Line 260: The property name _Version in stbPrincipal is invalid.
+Line 285: The property name Panels in stbPrincipal is invalid.
