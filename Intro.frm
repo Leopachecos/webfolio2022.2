@@ -35,7 +35,8 @@ Begin VB.Form frmLogin
    Begin VB.CommandButton cmdConectar 
       Caption         =   "Abrir"
       Height          =   375
-      Left            =   120
+      Left            =   240
+      Picture         =   "Intro.frx":0000
       TabIndex        =   2
       Top             =   4320
       Width           =   1215
@@ -107,7 +108,7 @@ Begin VB.Form frmLogin
       DragMode        =   1  'Automatic
       Height          =   2700
       Left            =   1680
-      Picture         =   "Intro.frx":0000
+      Picture         =   "Intro.frx":50E0
       Stretch         =   -1  'True
       Top             =   0
       Width           =   3180
