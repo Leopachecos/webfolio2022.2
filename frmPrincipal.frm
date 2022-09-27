@@ -10,6 +10,7 @@ Begin VB.Form frmPrincipal
    ScaleHeight     =   12855
    ScaleWidth      =   25350
    StartUpPosition =   2  'CenterScreen
+   WindowState     =   2  'Maximized
    Begin VB.Frame Frame1 
       BackColor       =   &H00AA0D50&
       BeginProperty Font 
@@ -25,8 +26,8 @@ Begin VB.Form frmPrincipal
       Left            =   480
       TabIndex        =   0
       Top             =   120
-      Width           =   28575
-      Begin VB.PictureBox cmdUX 
+      Width           =   27735
+      Begin VB.PictureBox cmdEng 
          BorderStyle     =   0  'None
          Height          =   1455
          Index           =   1
@@ -221,8 +222,17 @@ Attribute VB_GlobalNameSpace = False
 Attribute VB_Creatable = False
 Attribute VB_PredeclaredId = True
 Attribute VB_Exposed = False
-Private Sub cmdUX_Click(Index As Integer)
+Private Sub cmdEng_Click(Index As Integer)
  With frmEng
+
+                    .Show
+
+                    Unload Me
+                End With
+End Sub
+
+Private Sub cmdUX_Click(Index As Integer)
+ With frmUX
 
                     .Show
 
