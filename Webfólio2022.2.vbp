@@ -8,6 +8,7 @@ Form=frmSobreMim.frm
 Form=frmEng.frm
 Form=frmEng2.frm
 Form=frmUX.frm
+Form=frmUX2.frm
 Startup="frmLogin"
 HelpFile=""
 Command32=""
