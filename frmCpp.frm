@@ -1,12 +1,12 @@
 VERSION 5.00
-Begin VB.Form frmUX 
+Begin VB.Form frmCpp 
    BackColor       =   &H8000000D&
-   Caption         =   "UX"
+   Caption         =   "CPP - Estatística"
    ClientHeight    =   3135
    ClientLeft      =   60
    ClientTop       =   405
    ClientWidth     =   4680
-   LinkTopic       =   "Form1"
+   LinkTopic       =   "frmCpp"
    ScaleHeight     =   3135
    ScaleWidth      =   4680
    StartUpPosition =   3  'Windows Default
@@ -15,46 +15,46 @@ Begin VB.Form frmUX
       Appearance      =   0  'Flat
       BackColor       =   &H80000005&
       ForeColor       =   &H80000008&
-      Height          =   7935
+      Height          =   9495
       Index           =   2
-      Left            =   15720
-      Picture         =   "frmUX.frx":0000
-      ScaleHeight     =   7905
+      Left            =   17640
+      Picture         =   "frmCpp.frx":0000
+      ScaleHeight     =   9465
       ScaleMode       =   0  'User
       ScaleTop        =   2
-      ScaleWidth      =   341.96
-      TabIndex        =   6
-      Top             =   6120
-      Width           =   8895
+      ScaleWidth      =   263.269
+      TabIndex        =   5
+      Top             =   4440
+      Width           =   6855
    End
    Begin VB.PictureBox Picture 
       Appearance      =   0  'Flat
       BackColor       =   &H80000005&
       ForeColor       =   &H80000008&
-      Height          =   7935
+      Height          =   12615
       Index           =   1
-      Left            =   4200
-      Picture         =   "frmUX.frx":1C6C5
-      ScaleHeight     =   7905
+      Left            =   4080
+      Picture         =   "frmCpp.frx":189D2
+      ScaleHeight     =   12585
       ScaleMode       =   0  'User
       ScaleTop        =   2
-      ScaleWidth      =   341.96
-      TabIndex        =   5
-      Top             =   6120
-      Width           =   8895
+      ScaleWidth      =   263.269
+      TabIndex        =   4
+      Top             =   2400
+      Width           =   6855
    End
    Begin VB.PictureBox Picture 
       BorderStyle     =   0  'None
-      Height          =   3735
+      Height          =   3495
       Index           =   0
-      Left            =   12600
-      Picture         =   "frmUX.frx":36E1E
-      ScaleHeight     =   252.482
+      Left            =   12840
+      Picture         =   "frmCpp.frx":2A44A
+      ScaleHeight     =   236.258
       ScaleMode       =   0  'User
-      ScaleWidth      =   3735
-      TabIndex        =   2
+      ScaleWidth      =   2895
+      TabIndex        =   1
       Top             =   1800
-      Width           =   3735
+      Width           =   2895
    End
    Begin VB.PictureBox cmdBack 
       Appearance      =   0  'Flat
@@ -64,32 +64,17 @@ Begin VB.Form frmUX
       Height          =   1215
       Index           =   0
       Left            =   0
-      Picture         =   "frmUX.frx":45EFD
-      ScaleHeight     =   1215
-      ScaleWidth      =   1455
-      TabIndex        =   1
-      Top             =   0
-      Width           =   1455
-   End
-   Begin VB.PictureBox cmdNext 
-      Appearance      =   0  'Flat
-      BackColor       =   &H80000005&
-      BorderStyle     =   0  'None
-      ForeColor       =   &H80000008&
-      Height          =   1215
-      Index           =   1
-      Left            =   27120
-      Picture         =   "frmUX.frx":490F6
+      Picture         =   "frmCpp.frx":322F5
       ScaleHeight     =   1215
       ScaleWidth      =   1455
       TabIndex        =   0
-      Top             =   360
+      Top             =   0
       Width           =   1455
    End
    Begin VB.Label Label 
       Alignment       =   2  'Center
       BackColor       =   &H8000000D&
-      Caption         =   "Ánalise de sistemas, UX, Qualidade de teste de Software"
+      Caption         =   "CPP - Estatística"
       BeginProperty Font 
          Name            =   "MS Sans Serif"
          Size            =   24
@@ -102,14 +87,14 @@ Begin VB.Form frmUX
       Height          =   615
       Index           =   0
       Left            =   0
-      TabIndex        =   4
+      TabIndex        =   3
       Top             =   360
       Width           =   28575
    End
    Begin VB.Label Label 
       Alignment       =   2  'Center
       BackColor       =   &H8000000D&
-      Caption         =   "Professora: Paula Silveira"
+      Caption         =   "Professora: Daniela Giffoni Marques"
       BeginProperty Font 
          Name            =   "MS Sans Serif"
          Size            =   13.5
@@ -122,18 +107,18 @@ Begin VB.Form frmUX
       Height          =   615
       Index           =   1
       Left            =   0
-      TabIndex        =   3
+      TabIndex        =   2
       Top             =   1080
       Width           =   28575
    End
 End
-Attribute VB_Name = "frmUX"
+Attribute VB_Name = "frmCpp"
 Attribute VB_GlobalNameSpace = False
 Attribute VB_Creatable = False
 Attribute VB_PredeclaredId = True
 Attribute VB_Exposed = False
 Private Sub cmdBack_Click(Index As Integer)
-   With frmPrincipal
+ With frmPrincipal
     
     '
                         .Show
@@ -143,17 +128,4 @@ Private Sub cmdBack_Click(Index As Integer)
                         Unload Me
                     End With
 End Sub
-
-Private Sub cmdNext_Click(Index As Integer)
-With frmUX2
-    
-    '
-                        .Show
-    '
-    '                    frmLogo.Show
-    '
-                        Unload Me
-                    End With
-End Sub
-
 

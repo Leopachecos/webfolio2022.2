@@ -58,6 +58,25 @@ Begin VB.Form frmEng2
       Width           =   1455
    End
    Begin VB.Label Label 
+      BackColor       =   &H8000000D&
+      Caption         =   "Ciclo de Vida de um Software"
+      BeginProperty Font 
+         Name            =   "MS Sans Serif"
+         Size            =   15
+         Charset         =   0
+         Weight          =   400
+         Underline       =   0   'False
+         Italic          =   -1  'True
+         Strikethrough   =   0   'False
+      EndProperty
+      Height          =   375
+      Index           =   2
+      Left            =   7080
+      TabIndex        =   5
+      Top             =   1680
+      Width           =   4455
+   End
+   Begin VB.Label Label 
       Alignment       =   2  'Center
       BackColor       =   &H8000000D&
       Caption         =   "Engenharia de Software"

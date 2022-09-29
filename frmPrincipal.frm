@@ -231,6 +231,33 @@ Private Sub cmdEng_Click(Index As Integer)
                 End With
 End Sub
 
+Private Sub cmdEst_Click(Index As Integer)
+With frmCpp
+
+                    .Show
+
+                    Unload Me
+                End With
+End Sub
+
+Private Sub cmdProg_Click(Index As Integer)
+With frmPrg
+
+                    .Show
+
+                    Unload Me
+                End With
+End Sub
+
+Private Sub cmdProjInt_Click(Index As Integer)
+With frmProj
+
+                    .Show
+
+                    Unload Me
+                End With
+End Sub
+
 Private Sub cmdUX_Click(Index As Integer)
  With frmUX
 
